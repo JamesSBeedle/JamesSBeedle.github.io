@@ -1,4 +1,5 @@
 import "./Project.css"
+// import Footer from './Footer'
 
 const Project = () => {
 
@@ -24,6 +25,7 @@ const Project = () => {
                     <p>Budget away is an budget flight planner blah blah</p>
                 </article>
             </section>
+            
 
           
         </>

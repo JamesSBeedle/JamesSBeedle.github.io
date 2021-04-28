@@ -1,21 +1,25 @@
 .home-container{
-    display:flex;
-    flex-direction:column;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 2fr 5=1fr; */
-    justify-items: center;
-    align-items: center;
-    height: auto;
-    width:100%;
-    /* border: black 2px solid; */
-    margin:2px 0px;  
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color:white;
+    overflow:scroll;
+}
+
+.home-container::-webkit-scrollbar {
+    display: none;
 }
 
 .name{
     font-size:6em;
+    margin: 0px;
     
 }
 
 .profession{
     font-size:3em;
+    margin: 0px;
 }

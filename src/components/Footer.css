@@ -12,3 +12,9 @@
     height:70px;
     
 }
+
+@media (max-width:500px){
+    .footer{
+        width:100vw;       
+    }
+}

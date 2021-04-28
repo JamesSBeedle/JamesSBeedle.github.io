@@ -6,6 +6,7 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import './App.css'
 
 // import SiteContainer from '../src/containers/SiteContainer'
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Project} />
+          <Footer/>
         </>
       </Router>
     </main>
