@@ -1,11 +1,21 @@
 .home-container{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 5=1fr;
+    display:flex;
+    flex-direction:column;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5=1fr; */
     justify-items: center;
     align-items: center;
     height: auto;
-    width:auto;
-    border: black 2px solid;
-    margin:2px 0px;
+    width:100%;
+    /* border: black 2px solid; */
+    margin:2px 0px;  
+}
+
+.name{
+    font-size:6em;
+    
+}
+
+.profession{
+    font-size:3em;
 }

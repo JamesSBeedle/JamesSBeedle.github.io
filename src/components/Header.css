@@ -1,20 +1,23 @@
 .nav-container{
     padding:2px;
-    margin:2px;
+    /* margin:2px; */
     border-radius: 15px;
 }
 
 .nav-bar{
     display: grid;
+    /* justify-content:space-between; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow:hidden;
     /* background-color: #333; */
-    border-radius:15px;
+    /* border-radius:15px; */
+    padding:15px;
+    background-color: #333;
 }
 
 .nav-bar > a{
    
-    display: block;
+    /* display: block; */
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;

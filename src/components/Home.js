@@ -1,20 +1,20 @@
-
-
 import "./Home.css"
+import Footer from './Footer'
 
 const Home = () => {
     return(
-        <>
+        <div class="home-container">
             
 
-            <section class="home-container" id="home">
-                <h1>James Beedle</h1>
+            <section >
+                <h1 class="name">James Beedle</h1>
 
-                <h2>Software Developer</h2>
+                <h2 class="profession">Software Developer</h2>
             </section>
+            <Footer/>
 
            
-        </>
+        </div>
        
     )
 }
