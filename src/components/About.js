@@ -1,5 +1,12 @@
 import "./About.css"
-// import Footer from './Footer'
+import me from "../images/James_Web.jpg"
+import react from "../images/React.jpg"
+import vue from "../images/Vue.jpg"
+import python from "../images/Python.jpg"
+import mongo from "../images/MongoDB.jpg"
+import Java from "../images/Java.jpg"
+import spring from "../images/Spring.jpg"
+
 
 const About = () => {
 
@@ -13,15 +20,15 @@ const About = () => {
 
                 <section class="img-box">
                     <div class="lg-img-container">
-                        <img class="lg-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
+                        <img class="lg-img" src ={me} alt = "a picture of  james beedle"></img>
                     </div>
                     <div class="small-img-container">
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
-                        <img class="small-img" src ="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png?w=590&h=800&756A88D1-C0EA-4C21-92BE0BB43C14B265" alt = "this will be me"></img>
+                        <img class="small-img" src ={vue} alt = "vue logo"></img>
+                        <img class="small-img" src ={react} alt = "react logo"></img>
+                        <img class="small-img" src = {python} alt = "python logo"></img>
+                        <img class="small-img" src ={Java} alt = "java logo"></img>
+                        <img class="small-img" src = {mongo} alt = "mongoDB logo"></img>
+                        <img class="small-img" src ={spring} alt = "spring logo"></img>
                     </div>
                 </section>
 

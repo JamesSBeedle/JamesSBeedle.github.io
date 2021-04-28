@@ -1,5 +1,8 @@
 import "./Contact.css"
-// import Footer from './Footer'
+import git from "../images/github.jpg"
+import linkedIn from "../images/Linkedin.jpg"
+import email from "../images/Email.jpg"
+
 
 const Contact = () => {
 
@@ -14,9 +17,10 @@ const Contact = () => {
                 </section>
 
                 <section class="contact-links">
-                    <p>Github: <a href="https://github.com/JamesSBeedle">https://github.com/JamesSBeedle</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/james-sherwood-beedle/"> https://www.linkedin.com/in/james-sherwood-beedle/</a></p>
-                    <p>Email: <a href="mailto:jamessbeedle@gmail.com"> jamessbeedle@gmail.com</a></p>
+                    <a href="https://github.com/JamesSBeedle" target="_blank" rel="noreferrer"><img class="link-image" src={git} alt="github logo" /></a>
+                    <a href="https://www.linkedin.com/in/james-sherwood-beedle/" target="_blank" rel="noreferrer"><img class="link-image" src={linkedIn} alt="linked in logo" /></a>
+                    <a href="mailto:jamessbeedle@gmail.com" target="_blank" rel="noreferrer"><img class="link-image" src={email} alt="email link" /></a>
+                    
                 </section>
 
             </article>

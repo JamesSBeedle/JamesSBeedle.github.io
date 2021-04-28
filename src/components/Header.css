@@ -21,19 +21,19 @@
 }
 
 .nav-bar > a{
-    color: #f2f2f2;
+    color: #C9A885;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border:white 1px solid;
+    border:#C9A885 1px solid;
     border-radius: 15px;
     background-color: #333;
     margin:2px;
 }
 
 .nav-bar >a:hover{
-    background-color: #ddd;
+    background-color:#C9A885;
     color: black;
 }
 

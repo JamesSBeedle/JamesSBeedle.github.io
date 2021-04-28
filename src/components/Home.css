@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     align-self: center;
-    color:white;
+    color: #C9A885;
     overflow:scroll;
 }
 
@@ -22,4 +22,16 @@
 .profession{
     font-size:3em;
     margin: 0px;
+}
+
+.portfolio{
+    font-size:2em;
+    margin: 0px; 
+}
+
+.underline{
+    height: 2px;
+    width: 50%;
+    margin: 5px auto;
+    background-color: #C9A885;
 }

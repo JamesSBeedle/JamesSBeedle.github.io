@@ -10,6 +10,8 @@ const Project = () => {
             <section class="project-container" id="projects">
                 <h1>Projects</h1>
 
+                
+
                 <article>
                     <h2>Inn-Ventory</h2>
                     <p>Inn-ventory is an alcohol blah blah</p>

@@ -1,17 +1,25 @@
 .footer{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     overflow:hidden;
     background-color: #333;
-    color: white;
+    color: #C9A885;
     text-align: center;
     left:0;
     right:0;
     bottom:0; 
     position:absolute; 
     height:70px;
+    align-items:center;
+    
     
 }
+
+.footer > a{
+    text-decoration:none;
+    color: #C9A885;
+}
+
 
 @media (max-width:500px){
     .footer{

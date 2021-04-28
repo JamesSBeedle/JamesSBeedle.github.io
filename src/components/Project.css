@@ -9,6 +9,11 @@
     border: black 2px solid;
     font-size:20px;
     overflow:scroll;
+    color: #C9A885;
+}
+
+.project-container > h1 {
+    font-size:4em;
 }
 
 .project-container::-webkit-scrollbar {
