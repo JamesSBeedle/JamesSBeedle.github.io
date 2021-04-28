@@ -1,0 +1,11 @@
+.home-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5=1fr;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    width:auto;
+    border: black 2px solid;
+    margin:2px 0px;
+}
