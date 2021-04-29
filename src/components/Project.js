@@ -14,16 +14,25 @@ const Project = () => {
 
                 <article>
                     <h2>Inn-Ventory</h2>
+                    <img></img>
+                    <img></img>
+                    <img></img>
                     <p>Inn-ventory is an alcohol blah blah</p>
                 </article>
 
                 <article>
                     <h2>Try-atomic</h2>
+                    <img></img>
+                    <img></img>
+                    <img></img>
                     <p>Try-atomic is a carbon footprint blah blah</p>
                 </article>
 
                 <article>
                     <h2>Budgetaway</h2>
+                    <img></img>
+                    <img></img>
+                    <img></img>
                     <p>Budget away is an budget flight planner blah blah</p>
                 </article>
             </section>
