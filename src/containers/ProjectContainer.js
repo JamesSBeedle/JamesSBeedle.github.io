@@ -12,7 +12,7 @@ const Project = () => {
            
 
             <section className="project-container" id="projects">
-                
+
                 <h1>Projects</h1>    
                 
                 <article className="presentation-container">
@@ -31,6 +31,7 @@ const Project = () => {
 
                     </section>
                 </article>
+                
             </section>
             
 

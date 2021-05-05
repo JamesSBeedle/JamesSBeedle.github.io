@@ -2,6 +2,7 @@ import "./Contact.css"
 import git from "../images/github.jpg"
 import linkedIn from "../images/Linkedin.jpg"
 import email from "../images/Email.jpg"
+import Footer from './Footer'
 
 
 const Contact = () => {
@@ -22,9 +23,10 @@ const Contact = () => {
                     <a href="mailto:jamessbeedle@gmail.com" target="_blank" rel="noreferrer"><img className="link-image" src={email} alt="email link" /></a>
                     
                 </section>
+                
 
             </article>
-            
+            <Footer/> 
 
            
         </>

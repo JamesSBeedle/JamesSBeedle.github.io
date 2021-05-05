@@ -8,6 +8,8 @@
     color: black;
     overflow:scroll;
     margin: 10px auto;
+    height:90vh;
+
 }
 .contact-container > section > a {
     text-decoration: none;
@@ -34,20 +36,39 @@
 
 .questions {
     /* background-color:rgba(95, 158, 160, 0.681);  */
-    background-color:rgba(255, 255, 255, 0.681);
     margin: 20px auto;
     border-radius:15px; 
     text-align:center;
-    width:95%;
+    width:90%;
+    padding:15px;
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.154);
+    color: #C9A885;
+    border: solid 2px #C9A885;
+}
+
+.questions > p{
+    color: #C9A885;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #333;
+    margin:5px auto;;
+    height:100%;
+    font-size: 26px;
+    text-align: center;
+    padding: 0px 15px;
+    box-sizing: border-box;
 }
 
 .contact-links{
-    /* background-color:rgba(95, 158, 160, 0.681);  */
-    background-color:rgba(255, 255, 255, 0.681);
-    margin: 20px auto;
+    background-color:rgba(255, 255, 255, 0.154);
+    border: solid 2px #C9A885;
+    margin: 30px auto;
     border-radius:15px; 
     text-align:center;
-    width:95%;
+    width:90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,7 +83,7 @@
     color: black;
 }
 
-.contact-links > p >a:hover{
+.contact-links > p > a:hover{
     background-color: #C9A885;
     color: black;
 }
