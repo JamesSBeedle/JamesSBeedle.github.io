@@ -54,12 +54,13 @@
     text-decoration: none;
     font-size: 17px;
     background-color: #333;
-    margin:5px auto;;
+    margin: auto;;
     height:100%;
     font-size: 26px;
     text-align: center;
     padding: 0px 15px;
     box-sizing: border-box;
+    border-radius:15px;
 }
 
 .contact-links{
