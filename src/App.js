@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Project from './containers/ProjectContainer'
 import Contact from './components/Contact'
 import Header from './components/Header'
-import Footer from './components/Footer'
+
 import './App.css'
 
 // import SiteContainer from '../src/containers/SiteContainer'
@@ -14,6 +14,7 @@ import './App.css'
 function App() {
   return (
     <main class="app-body">
+      <>
       <Router>
         <>
           <Header />          
@@ -21,9 +22,11 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Project} />
-          <Footer/>
+          {/* <Footer/> */}
         </>
       </Router>
+      
+      </>
     </main>
   );
 }

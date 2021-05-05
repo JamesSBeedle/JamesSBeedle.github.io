@@ -20,3 +20,22 @@
     display: none;
 }
 
+.presentation-container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.presentation-box{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+

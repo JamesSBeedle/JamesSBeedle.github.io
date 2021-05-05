@@ -1,0 +1,19 @@
+.images-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height: 100px;
+    width: 200px;
+}
+
+.image-container{
+    height:100%;
+    width:100%;
+    margin: 10px auto;
+}
+
+.image-container > img{
+    height:100%;
+    width:100%;
+}

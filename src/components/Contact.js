@@ -8,18 +8,18 @@ const Contact = () => {
 
     return(
         <>
-            <article class="contact-container" id="contact">
+            <article className="contact-container" id="contact">
 
                 <h1>Contact</h1>
 
-                <section class="questions">
+                <section className="questions">
                     <p>If you have any Questions or are interested in any of my Work please get in touch using the links below.</p>
                 </section>
 
-                <section class="contact-links">
-                    <a href="https://github.com/JamesSBeedle" target="_blank" rel="noreferrer"><img class="link-image" src={git} alt="github logo" /></a>
-                    <a href="https://www.linkedin.com/in/james-sherwood-beedle/" target="_blank" rel="noreferrer"><img class="link-image" src={linkedIn} alt="linked in logo" /></a>
-                    <a href="mailto:jamessbeedle@gmail.com" target="_blank" rel="noreferrer"><img class="link-image" src={email} alt="email link" /></a>
+                <section className="contact-links">
+                    <a href="https://github.com/JamesSBeedle" target="_blank" rel="noreferrer"><img className="link-image" src={git} alt="github logo" /></a>
+                    <a href="https://www.linkedin.com/in/james-sherwood-beedle/" target="_blank" rel="noreferrer"><img className="link-image" src={linkedIn} alt="linked in logo" /></a>
+                    <a href="mailto:jamessbeedle@gmail.com" target="_blank" rel="noreferrer"><img className="link-image" src={email} alt="email link" /></a>
                     
                 </section>
 

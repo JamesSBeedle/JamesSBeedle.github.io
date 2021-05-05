@@ -50,6 +50,7 @@
     width:95%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding:10px;
     
@@ -71,4 +72,18 @@
     width: 200px;
     border-radius: 15px;
     margin: 5px auto;
+}
+
+@media (max-width:1000px){
+    .contact-container{
+        width:100vw; 
+        height: 80 vh;
+       
+    }
+}
+@media (max-width:500px){
+    .contact-container{
+        width:100vw; 
+        height: 60 vh;      
+    }
 }

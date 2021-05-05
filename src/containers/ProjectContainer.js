@@ -1,8 +1,9 @@
 import "./Project.css"
-import innHome from "../images/inn-home-page.png"
-import innAdd from "../images/inn-add-product.png"
-import innProduct from "../images/inn-product-page.png"
-// import Footer from './Footer'
+
+import InnVentory from "../components/InnVentory.js";
+import TryAtomic from "../components/TryAtomic.js";
+import Budgetaway from "../components/Budgetaway.js"
+
 
 const Project = () => {
 
@@ -10,11 +11,26 @@ const Project = () => {
         <>
            
 
-            <section class="project-container" id="projects">
-                <h1>Projects</h1>
+            <section className="project-container" id="projects">
+                
+                <h1>Projects</h1>    
+                
+                <article className="presentation-container">
 
-                
-                
+                    <section className="presentation-box">
+                        <InnVentory />
+
+                    </section>
+
+                    <section className="presentation-box">
+                        <TryAtomic />
+
+                    </section>
+                    <section className="presentation-box">
+                        <Budgetaway />
+
+                    </section>
+                </article>
             </section>
             
 
