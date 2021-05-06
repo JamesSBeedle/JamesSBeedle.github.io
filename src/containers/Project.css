@@ -32,6 +32,7 @@
     margin: 0 auto;
 }
 
+
 .presentation-box{
     display: flex;
     justify-content: center;
@@ -43,5 +44,36 @@
     color: #C9A885;
     border-radius: 15px;
     border: solid 2px #C9A885;
+    overflow:scroll;
+}
+
+@media (max-width: 500px){
+    .presentation-container{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    
+    }
+    .presentation-box{
+        margin:15px;
+        height:150px;
+    }
+    .image-container> img{
+        display:none;
+    }
+    .description{
+        display:none;
+    }
+    .project-container > h1{
+        margin: 0;
+        font-size:2em;
+    }
+
+    .project-container {
+        grid-template-rows:auto auto;
+        width:100%;
+    }
+    
+   
 }
 

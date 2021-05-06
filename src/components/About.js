@@ -33,9 +33,11 @@ const About = () => {
                 </section>
 
                 <section className="story-box">
-                    <h3>My Story</h3>
+                    <section className="story-box-inner">
+                        <h3>My Story</h3>
 
-                    <p>A Junior Software Developer with a background in Hospitality Management and Customer Service. I am used to working in fast paced high pressure environments, communicating well with team members and customers alike. Always looking for the next challenge I decided to take a change in direction and make an Interest a Career. Through my role as a Manager I have come to understand the importance of great teamwork and the creation of a positive working environment. </p>
+                        <p>A Junior Software Developer with a background in Hospitality Management and Customer Service. I am used to working in fast paced high pressure environments, communicating well with team members and customers alike. Always looking for the next challenge I decided to take a change in direction and make an Interest a Career. Through my role as a Manager I have come to understand the importance of great teamwork and the creation of a positive working environment. </p>
+                    </section>
                 </section>
 
             </section>

@@ -42,6 +42,18 @@
     
 }
 
+.story-box-inner{
+    background-color: #333;
+    margin:10px;
+    height:100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius:15px;
+    /* width:95% */
+}
+
 .story-box > h3{
     font-size:2em;
     margin:0px;
@@ -81,7 +93,7 @@
     font-size: 17px;
     /* border:#C9A885 1px solid; */
     /* border-radius: 15px; */
-    background-color: #333;
+    /* background-color: #333;
     margin:20px auto;
     height:100%;
     font-size: 32px;
@@ -89,7 +101,7 @@
     padding: 0px 15px;
     box-sizing: border-box;
     border-radius:15px;
-    width:90%
+    width:90% */
     
     
 }
