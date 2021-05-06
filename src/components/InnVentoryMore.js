@@ -3,7 +3,7 @@ import InnAdd from "../images/inn-add-product.png";
 import InnProduct from "../images/inn-product-page.png";
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
-// import "./Applications.css"
+import "./Applications.css"
 
 const InnVentoryMore = () => {
     const imageArray= [InnHome, InnAdd, InnProduct]
