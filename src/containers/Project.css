@@ -65,6 +65,9 @@
     .image-container> img{
         display:none;
     }
+    .image-container-try > img{
+        display:none;
+    }
     .description{
         display:none;
     }

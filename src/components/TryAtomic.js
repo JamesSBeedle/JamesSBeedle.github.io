@@ -1,4 +1,4 @@
-import InnHome from "../images/inn-home-page.png";
+import TryDisplay from "../images/try-atomic-energy-display.png";
 import "./Applications.css"
 import { Link } from 'react-router-dom'
 
@@ -18,8 +18,8 @@ const TryAtomic = () => {
 
             
 
-                <section className="image-container">
-                    <img src={InnHome} alt="try-atomic home page" />
+                <section className="image-container-try">
+                    <img src={TryDisplay} alt="try-atomic home page" />
                 </section>
 
                 
