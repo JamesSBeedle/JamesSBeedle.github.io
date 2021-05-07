@@ -1,18 +1,12 @@
 import InnHome from "../images/inn-home-page.png";
 import InnAdd from "../images/inn-add-product.png";
 import InnProduct from "../images/inn-product-page.png";
-import InnAddSupplier from "../images/inn-add-supplier.png";
-import InnSingleProduct from "../images/inn-single-product.png";
-import InnEditProduct from "../images/inn-edit-product.png";
-import InnSuppliers from "../images/inn-suppliers.png";
-import InnSingleSupplier from "../images/inn-single-supplier.png";
-import InnEditSupplier from "../images/inn-edit-supplier.png";
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import "./Applications.css"
 
 const InnVentoryMore = () => {
-    const imageArray= [InnHome, InnProduct, InnAdd, InnSingleProduct, InnEditProduct, InnSuppliers, InnAddSupplier, InnSingleSupplier, InnEditSupplier]
+    const imageArray= [InnHome, InnProduct, InnAdd]
 
     const images = imageArray.map((pic, index) => ({
         src: `${pic}`, 
@@ -30,10 +24,10 @@ const InnVentoryMore = () => {
                     </p>
                     
             </section>
-
+            
             <article className="images-wrapper-carousel">
 
-                <Carousel images={images} hasThumbnails={false} isAutoPlaying={true} autoPlayInterval={10000}/>
+                <Carousel images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false}/>
 
             </article>  
 
@@ -56,6 +50,7 @@ const InnVentoryMore = () => {
                     </ul>
                 </section>
             </article>
+            
         </main>
         </>
     )

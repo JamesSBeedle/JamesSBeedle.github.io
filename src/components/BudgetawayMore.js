@@ -1,51 +1,68 @@
-import InnHome from "../images/inn-home-page.png";
-import InnAdd from "../images/inn-add-product.png";
-import InnProduct from "../images/inn-product-page.png";
+import BudgetHome from "../images/budget-home.png";
+import BudgetCountrySelect from "../images/budget-country-select.png";
+import BudgetLangSelect from "../images/budget-lang-selected.png";
+import BudgetCountryDisplay from "../images/budget-country-display.png";
+import BudgetFlight from "../images/budget-flights-display.png";
+import BudgetWish from "../images/budget-wishlist.png";
+import BudgetCalc from "../images/budget-calculator.png"
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
 import "./Applications.css"
 
 const BudgetawayMore = () => {
+    const imageArray= [BudgetHome, BudgetLangSelect, BudgetCountrySelect, BudgetCountryDisplay, BudgetFlight, BudgetWish, BudgetCalc]
 
+    const images = imageArray.map((pic, index) => ({
+        src: `${pic}`, 
+        index: index
+      }));
     return(
         <>
-        <article className="images-wrapper">
+        
+        <main className="single-project">
 
-<section className="image-container-more">
-    <img src={InnHome} alt="Inn-ventory home page" />
-</section>
+            <section className="description-container">
 
-<section className="image-container-more">
-    <img src={InnProduct} alt="Inn-ventory products page" />
-</section>
+            <p className="description-lg">
+                        Budgetaway was designed and developed by a team of CodeClan students with the aim of giving people working on a budget a way to select holiday destinations and flights. It allows the user to select a country using filters for language and region. It then displays information about the country and the user can then select a departure airport and an arrival airport to get flight information. 
+                 
+                    <br></br>
+                    <br></br>
+                        The app also features a luck dip button which will allow a user to randomly select any country in the world rather than using the filters or selecting a country directly.
 
-<section className="image-container-more">
-    <img src={InnAdd} alt="Inn-ventory product adding form" />
-</section>  
+                        Any journey the user creates can be added to a wishlist of destinations to store for later use or deleted as appropriate.
 
-</article>  
+                        The application also includes a side-bar budgeting calculator that allows the user to enter their financial details and the journey cost and will calculate how much they can save per month and, if they do so, how many months it will be before they can afford the trip.
+                    </p>
+                    
+            </section>
 
-<article className="text-wrapper">
-<section className="description-container">
-    <p className="description">
-        The Inn-Ventory app was design as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
-    </p>
-</section>
+            <article className="images-wrapper-carousel-budget">
 
-<section className="mvp-containter">
-    <h2 className="mvp">M.V.P</h2>
-    <p>
-        * The application should be able to track an individual product that will have a name, a description, a stock quantity, a cost price and a sale price.
+                <Carousel images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false}/>
 
-        * The application must be able to track suppliers that will include a Name, an Address, a Telephone Number and a list of their Products.
+            </article>  
 
-        * The User should be able to Add new Products and Suppliers, Edit and Update the information they already have and Delete products they no longer stock or suppliers they no longer use.
+            <article className="text-wrapper">
+              
 
-        * The User should be able to view all items in stock as a list and all suppliers used as a list. These lists should provide information on the products or suppliers in one view.
+                <section className="mvp-container">
 
-        * The application should have a visually 
+                    <h2 className="mvp">M.V.P</h2>
 
-    </p>
-</section>
-</article>
+                        <ul>
+
+                            <li>The application should be able to track an individual product that will have a name, a description, a stock quantity, a cost price and a sale price</li>
+                            <li>The application must be able to track suppliers that will include a Name, an Address, a Telephone Number and a list of their Products</li>
+                            <li>The User should be able to Add new Products and Suppliers, Edit and Update the information they already have and Delete products they no longer stock or suppliers they no longer use</li>
+                            <li>The User should be able to view all items in stock as a list and all suppliers used as a list. These lists should provide information on the products or suppliers in one view</li>
+                            <li>The application should visually highlight "low stock" and "out of stock" items </li>
+                            <li>The user should be able to apply a % markup to a product which should automatically update the sale price from the cost price.</li>           
+
+                    </ul>
+                </section>
+            </article>
+        </main>
         </>
     )
 

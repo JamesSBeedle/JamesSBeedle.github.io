@@ -13,6 +13,14 @@
     margin: 15px auto;
     
 }
+.images-wrapper-carousel-budget{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30%;
+    margin: 15px auto;
+    
+}
 
 .images-wrapper-carousel-try{
     display: flex;
@@ -47,7 +55,7 @@
     text-decoration: none;
     font-size: 17px;
     background-color: #333;
-    margin:0px auto;;
+    margin:5px auto;;
     font-size: 22px;            
     text-align: center;
     box-sizing: border-box;
@@ -137,6 +145,8 @@
     margin:3px auto;
 
 }
+
+
 
 @media (max-width:500px){
     .mvp-container > ul > li {
