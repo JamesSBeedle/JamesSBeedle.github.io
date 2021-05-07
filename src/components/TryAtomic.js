@@ -25,7 +25,7 @@ const TryAtomic = () => {
                 
                 <section className="description-container">
                     <p className="description">
-                        The Inn-Ventory app was design as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
+                    The try-atomic app was designed and developed as part of a Group Project. The aim of the team was to develop an app that would track a users carbon emissions and display their overall carbon footprint over the period of 1 month. It collects user inputted information on diet type (daily), transport (per journey) and enegry use (monthly) and calculates each inputs individual carbon emissions. It then displays the total emissions for the month and compares it to the average person.
                 </p>
                 </section>
 

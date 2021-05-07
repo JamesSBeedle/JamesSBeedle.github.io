@@ -1,12 +1,20 @@
-import InnHome from "../images/inn-home-page.png";
-import InnAdd from "../images/inn-add-product.png";
-import InnProduct from "../images/inn-product-page.png";
+import TryHome from "../images/try-atomic-home.png";
+import TryDiet1 from "../images/try-atomic-diet-form.png";
+import TryDiet2 from "../images/try-atomic-diet-select.png";
+import TryDiet3 from "../images/try-atomic-diet-display.png";
+import TryTrans1 from "../images/try-atomic-transport-form.png";
+import TryTrans2 from "../images/try-atomic-transport-select.png";
+import TryTrans3 from "../images/try-atomic-transport-displayed.png";
+import TryEnergy1 from "../images/try-atomic-energy-form.png";
+import TryEnergy2 from "../images/try-atomic-energy-select.png";
+import TryEnergy3 from "../images/try-atomic-energy-display.png";
+
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import "./Applications.css"
 
 const TryAtomicMore = () => {
-    const imageArray= [InnHome, InnAdd, InnProduct]
+    const imageArray= [TryHome, TryDiet1, TryDiet2, TryDiet3,TryTrans1, TryTrans2, TryTrans3, TryEnergy1, TryEnergy2, TryEnergy3 ]
 
     const images = imageArray.map((pic, index) => ({
         src: `${pic}`, 
@@ -19,11 +27,11 @@ const TryAtomicMore = () => {
 
             <section className="description-container">
                     <p className="description-lg">
-                    The Inn-Ventory app was designed as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
+                    The try-atomic app was designed and developed as part of a Group Project. The aim of the team was to develop an app that would track a users carbon emissions and display their overall carbon footprint over the period of 1 month. It collects user inputted information on diet type (daily), transport (per journey) and enegry use (monthly) and calculates each inputs individual carbon emissions. It then displays the total emissions for the month and compares it to the average person.
                     </p>
             </section>
 
-            <article className="images-wrapper-carousel">
+            <article className="images-wrapper-carousel-try">
 
                 <Carousel images={images} hasThumbnails={false} isAutoPlaying={true} autoPlayInterval={10000}/>
 
@@ -35,11 +43,11 @@ const TryAtomicMore = () => {
                 <section className="mvp-container">
                     <h2 className="mvp">M.V.P</h2>
                         <ul>
-                            <li>The application should be able to track an individual product that will have a name, a description, a stock quantity, a cost price and a sale price.</li>
-                            <li>The application must be able to track suppliers that will include a Name, an Address, a Telephone Number and a list of their Products.</li>
-                            <li>The User should be able to Add new Products and Suppliers, Edit and Update the information they already have and Delete products they no longer stock or suppliers they no longer use.</li>
-                            <li>The User should be able to view all items in stock as a list and all suppliers used as a list. These lists should provide information on the products or suppliers in one view.</li>
-                            <li>The application should have a visually </li>
+                            <li>The application should allow a user to submit details on a number of aspects of their lifestyle</li>
+                            <li>The application must use the users inputs to calculate the carbon emissions for that activity/choice</li>
+                            <li>The application must display the calculated Carbon Emissions for each activity to the user in an easy to read and infomative manner</li>
+                            <li>There should be a visually impactful way of displaying the users total carbon emissions</li>
+                            
                    
 
     

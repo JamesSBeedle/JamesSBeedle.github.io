@@ -14,6 +14,15 @@
     
 }
 
+.images-wrapper-carousel-try{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 12%;
+    margin: 15px auto;
+    
+}
+
 .images-wrapper > a{
     color: #C9A885;
     text-align: center;
