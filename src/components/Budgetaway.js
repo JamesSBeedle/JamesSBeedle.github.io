@@ -1,4 +1,4 @@
-import InnHome from "../images/inn-home-page.png";
+import BudgetHome from "../images/budget-home.png";
 import "./Applications.css"
 import { Link } from 'react-router-dom'
 
@@ -19,7 +19,7 @@ const Budgetaway = () => {
             
 
                 <section className="image-container">
-                    <img src={InnHome} alt="Budgetaway home page" />
+                    <img src={BudgetHome} alt="Budgetaway home page" />
                 </section>
 
                 
