@@ -33,7 +33,7 @@ const TryAtomicMore = () => {
 
             <article className="images-wrapper-carousel-try">
 
-                <Carousel images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={true} hasIndexBoard={false} hasSizeButton={true}/>
+                <Carousel images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false} hasSizeButton={false}/>
 
             </article>  
 
