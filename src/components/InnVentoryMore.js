@@ -16,6 +16,7 @@ const InnVentoryMore = () => {
         <>
         
         <main className="single-project">
+            <h1>Inn-ventory</h1>
 
             <section className="description-container">
 

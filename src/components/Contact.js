@@ -26,7 +26,7 @@ const Contact = () => {
                 
 
             </article>
-            <Footer/> 
+            <Footer className="footer"/> 
 
            
         </>

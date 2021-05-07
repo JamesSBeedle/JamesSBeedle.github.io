@@ -124,7 +124,12 @@
     height: 88vh;
     padding:10px;
     overflow:scroll;
+    
 
+}
+.single-project > h1{
+    text-align:center;
+    font-size: 3em;
 }
 
 .single-project::-webkit-scrollbar {
@@ -151,6 +156,17 @@
 
 }
 
+.phone-page{
+    display:none;
+}
+
+@media (max-width: 1050px) {
+  .images-wrapper > h1{
+        font-size: 1.5em;
+        margin: 2px;
+    }
+}
+
 
 
 @media (max-width:500px){
@@ -164,12 +180,26 @@
         width:auto;
         padding:2px;
         height:auto;
-        margin:none;
+        margin-left:20px;
     }
     .description-lg{
          font-size: small;
     }
+
+    .full-page{
+        display: none;
+    }
+
+    .phone-page{
+        display:flex;
+
+    }
+
+    
+
+    
 }
+
 
 
 

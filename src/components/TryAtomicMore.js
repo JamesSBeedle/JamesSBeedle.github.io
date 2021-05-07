@@ -25,6 +25,8 @@ const TryAtomicMore = () => {
         
         <main className="single-project">
 
+            <h1>try-atomic</h1>
+
             <section className="description-container">
                     <p className="description-lg">
                     The try-atomic app was designed and developed as part of a Group Project. The aim of the team was to develop an app that would track a users carbon emissions and display their carbon footprint over the period of 1 month. It collects user inputted information on diet type (daily), transport (per journey) and enegry use (monthly) and calculates each inputs individual carbon emissions. It then displays the total emissions for the month and compares it to the average person.
@@ -32,8 +34,13 @@ const TryAtomicMore = () => {
             </section>
 
             <article className="images-wrapper-carousel-try">
+                <section className="full-page">
+                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={true} hasIndexBoard={true} hasSizeButton={false}/>
+                </section>
+                <section className="phone-page">
 
-                <Carousel images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false} hasSizeButton={false}/>
+                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false}  hasLeftButton={false} hasRightButton={false} hasSizeButton={false} />
+                </section>
 
             </article>  
 

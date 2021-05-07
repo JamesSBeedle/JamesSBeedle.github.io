@@ -102,10 +102,16 @@
         height: 80 vh;
        
     }
+    .footer{
+        display:none;
+    }
 }
 @media (max-width:500px){
     .contact-container{
         width:100vw; 
         height: 60 vh;      
+    }
+    .footer{
+        display:none;
     }
 }

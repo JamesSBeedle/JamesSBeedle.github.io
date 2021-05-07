@@ -21,6 +21,7 @@ const BudgetawayMore = () => {
         <>
         
         <main className="single-project">
+            <h1>Budgetaway</h1>
 
             <section className="description-container">
 
