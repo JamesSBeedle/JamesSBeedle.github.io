@@ -57,7 +57,7 @@
     background-color: #333;
     margin:5px auto;;
     font-size: 22px;            
-    text-align: center;
+    text-align: justify;
     box-sizing: border-box;
     border-radius: 15px;
 }
@@ -123,7 +123,12 @@
     border-radius:15px;
     height: 88vh;
     padding:10px;
+    overflow:scroll;
 
+}
+
+.single-project::-webkit-scrollbar {
+    display: none;
 }
 
 .mvp-container{   
