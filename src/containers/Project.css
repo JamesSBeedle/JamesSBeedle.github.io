@@ -27,7 +27,7 @@
     justify-content: space-evenly; */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 60vh;
+    height: 63vh;
     width: 100%;
     margin: 0 auto;
 }

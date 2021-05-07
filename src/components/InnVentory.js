@@ -27,7 +27,7 @@ const InnVentory = () => {
                 
                 <section className="description-container">
                     <p className="description">
-                        The Inn-Ventory app was design as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
+                    The Inn-Ventory app was designed as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
                 </p>
                 </section>
 
