@@ -35,11 +35,11 @@ const TryAtomicMore = () => {
 
             <article className="images-wrapper-carousel-try">
                 <section className="full-page">
-                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={true} hasIndexBoard={true} hasSizeButton={false}/>
+                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={true} hasIndexBoard={true} />
                 </section>
                 <section className="phone-page">
 
-                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false}  hasLeftButton={false} hasRightButton={false} hasSizeButton={false} />
+                <Carousel  images={images} hasThumbnails={true} isAutoPlaying={true} autoPlayInterval={10000} hasMediaButton={false} hasIndexBoard={false}  hasLeftButton={false} hasRightButton={false}  />
                 </section>
 
             </article>  

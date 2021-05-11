@@ -1,12 +1,17 @@
 import InnHome from "../images/inn-home-page.png";
 import InnAdd from "../images/inn-add-product.png";
 import InnProduct from "../images/inn-product-page.png";
+import InnEditProduct from "../images/inn-edit-product.png";
+import InnEditSupplier from "../images/inn-edit-supplier.png";
+import InnSingleProduct from "../images/inn-single-product.png";
+import InnSingleSupplier from "../images/inn-single-supplier.png";
+import InnSupplier from "../images/inn-suppliers.png"
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import "./Applications.css"
 
 const InnVentoryMore = () => {
-    const imageArray= [InnHome, InnProduct, InnAdd]
+    const imageArray= [InnHome, InnProduct, InnAdd, InnSingleProduct, InnEditProduct, InnSupplier, InnSingleSupplier, InnEditSupplier ]
 
     const images = imageArray.map((pic, index) => ({
         src: `${pic}`, 

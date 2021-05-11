@@ -10,7 +10,7 @@ import 'react-gallery-carousel/dist/index.css';
 import "./Applications.css"
 
 const BudgetawayMore = () => {
-    const imageArray= [BudgetHome, BudgetLangSelect, BudgetCountrySelect, BudgetCalc,BudgetCountryDisplay]
+    const imageArray= [BudgetHome, BudgetLangSelect, BudgetCountrySelect,BudgetFlight, BudgetCalc,BudgetCountryDisplay, BudgetWish]
 
 
     const images = imageArray.map((pic, index) => ({
