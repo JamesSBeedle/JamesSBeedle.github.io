@@ -35,3 +35,10 @@
     margin: 5px auto;
     background-color: #C9A885;
 }
+
+.image-container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 25%;
+}
