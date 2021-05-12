@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5efec7a4.chunk.css",
-    "main.js": "/static/js/main.0f3342b6.chunk.js",
-    "main.js.map": "/static/js/main.0f3342b6.chunk.js.map",
+    "main.css": "/static/css/main.fd026630.chunk.css",
+    "main.js": "/static/js/main.dfba1964.chunk.js",
+    "main.js.map": "/static/js/main.dfba1964.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.12d40119.js",
     "runtime-main.js.map": "/static/js/runtime-main.12d40119.js.map",
-    "static/css/2.4b5642d2.chunk.css": "/static/css/2.4b5642d2.chunk.css",
+    "static/css/2.7bf42dde.chunk.css": "/static/css/2.7bf42dde.chunk.css",
     "static/js/2.97c6ef72.chunk.js": "/static/js/2.97c6ef72.chunk.js",
     "static/js/2.97c6ef72.chunk.js.map": "/static/js/2.97c6ef72.chunk.js.map",
     "static/js/3.e091d3ef.chunk.js": "/static/js/3.e091d3ef.chunk.js",
     "static/js/3.e091d3ef.chunk.js.map": "/static/js/3.e091d3ef.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.4b5642d2.chunk.css.map": "/static/css/2.4b5642d2.chunk.css.map",
-    "static/css/main.5efec7a4.chunk.css.map": "/static/css/main.5efec7a4.chunk.css.map",
+    "static/css/2.7bf42dde.chunk.css.map": "/static/css/2.7bf42dde.chunk.css.map",
+    "static/css/main.fd026630.chunk.css.map": "/static/css/main.fd026630.chunk.css.map",
     "static/js/2.97c6ef72.chunk.js.LICENSE.txt": "/static/js/2.97c6ef72.chunk.js.LICENSE.txt",
     "static/media/Email.f7974100.jpg": "/static/media/Email.f7974100.jpg",
     "static/media/App.css": "/static/media/James_Background.6481b7f4.jpg",
@@ -32,8 +32,13 @@
     "static/media/budget-wishlist.ef371f1c.png": "/static/media/budget-wishlist.ef371f1c.png",
     "static/media/github.1276453d.jpg": "/static/media/github.1276453d.jpg",
     "static/media/inn-add-product.9f4799de.png": "/static/media/inn-add-product.9f4799de.png",
+    "static/media/inn-edit-product.c286d500.png": "/static/media/inn-edit-product.c286d500.png",
+    "static/media/inn-edit-supplier.90531cf5.png": "/static/media/inn-edit-supplier.90531cf5.png",
     "static/media/inn-home-page.f8dca285.png": "/static/media/inn-home-page.f8dca285.png",
     "static/media/inn-product-page.5d4e0a8e.png": "/static/media/inn-product-page.5d4e0a8e.png",
+    "static/media/inn-single-product.be4e9201.png": "/static/media/inn-single-product.be4e9201.png",
+    "static/media/inn-single-supplier.84e86fb1.png": "/static/media/inn-single-supplier.84e86fb1.png",
+    "static/media/inn-suppliers.fe46169f.png": "/static/media/inn-suppliers.fe46169f.png",
     "static/media/try-atomic-diet-display.59adf546.png": "/static/media/try-atomic-diet-display.59adf546.png",
     "static/media/try-atomic-diet-form.dbe70f86.png": "/static/media/try-atomic-diet-form.dbe70f86.png",
     "static/media/try-atomic-diet-select.c2a51a51.png": "/static/media/try-atomic-diet-select.c2a51a51.png",
@@ -47,9 +52,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.12d40119.js",
-    "static/css/2.4b5642d2.chunk.css",
+    "static/css/2.7bf42dde.chunk.css",
     "static/js/2.97c6ef72.chunk.js",
-    "static/css/main.5efec7a4.chunk.css",
-    "static/js/main.0f3342b6.chunk.js"
+    "static/css/main.fd026630.chunk.css",
+    "static/js/main.dfba1964.chunk.js"
   ]
 }
