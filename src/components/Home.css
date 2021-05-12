@@ -59,3 +59,11 @@
         width:50px;
     }
 }
+
+@media(max-width: 1050px){
+    .small-img-home{
+        margin:10px 5px;
+        height:50px;
+        width:50px;
+    }
+}

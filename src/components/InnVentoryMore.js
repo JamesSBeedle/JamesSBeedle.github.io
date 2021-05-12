@@ -37,6 +37,17 @@ const InnVentoryMore = () => {
 
             </article>  
 
+            <article className="images-phone">
+                <img src={InnHome} alt="Inn-ventory Home Page" />
+                <img src={InnAdd} alt="Inn-ventory adding a product" />
+                <img src={InnProduct} alt="Inn-ventory products list" />
+                <img src={InnEditProduct} alt="Inn-ventory Editing a product" />
+                <img src={InnSingleProduct} alt="Inn-ventory single product display" />
+                <img src={InnSupplier} alt="Inn-ventory Suppliers List" />
+                <img src={InnSingleSupplier} alt="Inn-ventory single supplier display" />
+                <img src={InnEditSupplier} alt="Inn-ventory Editing a supplier" />
+            </article>
+
             <article className="text-wrapper">
               
 

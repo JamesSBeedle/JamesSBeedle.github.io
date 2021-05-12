@@ -105,6 +105,12 @@
     .footer{
         display:none;
     }
+    .link-image{
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+        margin: 5px auto;
+    }
 }
 @media (max-width:500px){
     .contact-container{
@@ -113,5 +119,11 @@
     }
     .footer{
         display:none;
+    }
+    .link-image{
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        margin: 5px auto;
     }
 }

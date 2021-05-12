@@ -50,6 +50,16 @@ const BudgetawayMore = () => {
 
             </article>  
 
+            <article className="images-phone">
+                <img src={BudgetHome} alt="Budgetaway Home Page" />
+                <img src={BudgetCountrySelect} alt="Budgetaway Showing Country Selection" />
+                <img src={BudgetLangSelect} alt="Budgetaway Showing Language Selection" />
+                <img src={BudgetCountryDisplay} alt="Budgetaway Showing country Details Being Displayed" />
+                <img src={BudgetFlight} alt="Budgetaway Showing A Flight Being Displayed" />
+                <img src={BudgetWish} alt="Budgetaway Showing the Journey Added To the Wishlist" />
+                <img src={BudgetCalc} alt="Budgetaway Showing the Sidebar Budget Calculator" />
+            </article>
+
             <article className="text-wrapper">
               
 
