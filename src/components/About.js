@@ -6,6 +6,7 @@ import python from "../images/Python.jpg"
 import mongo from "../images/MongoDB.jpg"
 import Java from "../images/Java.jpg"
 import spring from "../images/Spring.jpg"
+import JS from "../images/Javascript.jpg"
 
 
 const About = () => {
@@ -23,6 +24,7 @@ const About = () => {
                         <img className="lg-img" src ={me} alt = "a picture of  james beedle"></img>
                     </div>
                     <div className="small-img-container">
+                        <img className="small-img" src ={JS} alt = "JavaScript logo"></img>
                         <img className="small-img" src ={vue} alt = "vue logo"></img>
                         <img className="small-img" src ={react} alt = "react logo"></img>
                         <img className="small-img" src = {python} alt = "python logo"></img>

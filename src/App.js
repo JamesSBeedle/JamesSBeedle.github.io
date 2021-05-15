@@ -28,7 +28,7 @@ function App() {
           <Route path="/innventorymore" component={InnVentoryMore} />
           <Route path="/tryatomicmore" component={TryAtomicMore} />
           <Route path="/budgetawaymore" component={BudgetawayMore} />
-          {/* <Footer/> */}
+          
         </>
       </Router>
       

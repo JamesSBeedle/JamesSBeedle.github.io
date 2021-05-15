@@ -30,7 +30,12 @@ const TryAtomicMore = () => {
             <section className="description-container">
                     <p className="description-lg">
                     The try-atomic app was designed and developed as part of a Group Project. The aim of the team was to develop an app that would track a users carbon emissions and display their carbon footprint over the period of 1 month. It collects user inputted information on diet type (daily), transport (per journey) and enegry use (monthly) and calculates each inputs individual carbon emissions. It then displays the total emissions for the month and compares it to the average person.
+                    <br/>
+                    <br/>
+                    <a href="https://github.com/DavidTaylor96/JS_Project_front-end" target="_blank">Git Hub Front End</a>
+                    <a href="https://github.com/DavidTaylor96/JS_project_back-end" target="_blank">Git Hub Back End</a>
                     </p>
+                    
             </section>
 
             <article className="images-wrapper-carousel-try">

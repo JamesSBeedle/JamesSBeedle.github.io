@@ -6,6 +6,7 @@ import python from "../images/Python.jpg"
 import mongo from "../images/MongoDB.jpg"
 import Java from "../images/Java.jpg"
 import spring from "../images/Spring.jpg"
+import JS from "../images/Javascript.jpg"
 
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
                     <h2 className="profession">Software Developer</h2>
                     <div className="underline"></div>
                     <div className="image-container-home">
-                    <img className="small-img-home" src ={vue} alt = "vue logo"></img>
+                        <img className="small-img-home" src ={JS} alt = "JavaScript logo"></img>
+                        <img className="small-img-home" src ={vue} alt = "vue logo"></img>
                         <img className="small-img-home" src ={react} alt = "react logo"></img>
                         <img className="small-img-home" src = {python} alt = "python logo"></img>
                         <img className="small-img-home" src ={Java} alt = "java logo"></img>
