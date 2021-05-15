@@ -29,6 +29,8 @@ const InnVentoryMore = () => {
                     The Inn-Ventory app was designed as a way for businesses within the alcohol retail industry, mainly inns, pubs and clubs, to track and update their suppliers and product stocks in a quick and efficient manner. It also calculates the sale price of items from an entered cost price and a selected % markup applied by the user.
                     <br/>
                     <br/>
+                    
+                    <a href="https://inn-ventory.herokuapp.com/" target="_blank">Application Page</a>
                     <a href="https://github.com/JamesSBeedle/Inn-Ventory-Alcohol-Inventory-Application" target="_blank">Git Hub Repository</a>
                     </p>
             </section>
