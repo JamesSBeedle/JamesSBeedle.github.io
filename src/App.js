@@ -8,6 +8,7 @@ import Header from './components/Header'
 import InnVentoryMore from './components/InnVentoryMore'
 import TryAtomicMore from './components/TryAtomicMore'
 import BudgetawayMore from './components/BudgetawayMore'
+import ErrorPage from './components/ErrorPage'
 
 import './App.css'
 
@@ -20,7 +21,8 @@ function App() {
       <>
       <Router>
         <>
-          <Header />          
+          <Header /> 
+          <Switch>        
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
@@ -28,6 +30,8 @@ function App() {
           <Route path="/innventorymore" component={InnVentoryMore} />
           <Route path="/tryatomicmore" component={TryAtomicMore} />
           <Route path="/budgetawaymore" component={BudgetawayMore} />
+          <Route component={ErrorPage} />
+          </Switch>
           
         </>
       </Router>
