@@ -30,8 +30,8 @@ const InnVentoryMore = () => {
                     <br/>
                     <br/>
                     
-                    <a href="https://inn-ventory.herokuapp.com/" target="_blank">Application Page</a>
-                    <a href="https://github.com/JamesSBeedle/Inn-Ventory-Alcohol-Inventory-Application" target="_blank">Git Hub Repository</a>
+                    <a href="https://inn-ventory.herokuapp.com/" target="_blank" rel="noreferrer">Application Page</a>
+                    <a href="https://github.com/JamesSBeedle/Inn-Ventory-Alcohol-Inventory-Application" target="_blank" rel="noreferrer">Git Hub Repository</a>
                     </p>
             </section>
             

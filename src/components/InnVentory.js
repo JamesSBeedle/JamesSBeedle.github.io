@@ -1,6 +1,4 @@
 import InnHome from "../images/inn-home-page.png";
-import InnAdd from "../images/inn-add-product.png";
-import InnProduct from "../images/inn-product-page.png";
 import "./Applications.css"
 import { Link } from 'react-router-dom'
 

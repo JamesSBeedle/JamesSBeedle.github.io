@@ -21,7 +21,7 @@ const About = () => {
 
                 <section className="img-box">
                     <div className="lg-img-container">
-                        <img className="lg-img" src ={me} alt = "a picture of  james beedle"></img>
+                        <img className="lg-img" src ={me} alt = "James Beedle"></img>
                     </div>
                     <div className="small-img-container">
                         <img className="small-img" src ={JS} alt = "JavaScript logo"></img>
