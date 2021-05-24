@@ -298,6 +298,12 @@
     }
     .description-lg{
          font-size: small;
+         display:flex;
+         flex-direction:column;
+    }
+
+    .description-lg > a{
+        margin:5px auto;
     }
 
     .full-page{
@@ -332,6 +338,7 @@
         margin: 10px auto;
         justify-content: center;
     }
+   
 
     
 
