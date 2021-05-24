@@ -40,9 +40,11 @@ const BudgetawayMore = () => {
                         The application also includes a side-bar budgeting calculator. This allows the user to enter their financial details and the journey cost and will then calculate how much they can save per month and, if they do so, how many months it will be before they can afford the trip.
                         <br/>
                         <br/>
+                        
                         <a href="https://budgetaway-react.herokuapp.com/" target="_blank">Application Page</a>
                         <a href="https://github.com/JamesSBeedle/budgetaway_react" target="_blank">Git Hub Front End</a>
                         <a href="https://github.com/selsmie/budgetaway_spring" target="_blank">Git Hub Back End</a>
+                        
                  
                
                     </p>
